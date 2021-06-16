@@ -1,6 +1,18 @@
+.row *
+{
+    padding: 5px;
+}
+
 [class*=col]
 {
     min-height: 150px;
     background-color: pink;
     border: 1px solid black
+}
+
+
+[class*=col] .row [class*=col]
+{
+    background-color: #f55;
+    border: 1px solid white;
 }
