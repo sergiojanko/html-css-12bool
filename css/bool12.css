@@ -1,0 +1,31 @@
+/* RESET */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+
+.container
+{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid
+{
+    max-width: 100%;
+    width: 100%;
+}
+
+/* GRID */
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
