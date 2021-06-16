@@ -183,6 +183,30 @@
 {
     align-items: flex-end;
 }
+.ai-baseline
+{
+    align-items: baseline;
+    align-content: center;
+}
 
+/* TEXT */
+
+.text-center
+{
+    text-align: center;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-left
+{
+    text-align: left;
+}
+
+.lh-100
+{
+    line-height: 100%;
+}
 /*  MEDIA QUERIES*/
 
