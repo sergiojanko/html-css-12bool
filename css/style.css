@@ -16,3 +16,50 @@
     background-color: #f55;
     border: 1px solid white;
 }
+
+
+@media screen and (min-width: 576px)
+{
+    [class*=col]
+    {
+        min-height: 150px;
+        background-color: goldenrod;
+        border: 1px solid black;
+    }
+
+    [class*=col] .row [class*=col]
+    {
+        background-color: dodgerblue;
+        border: 1px solid white;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    [class*=col]
+    {
+        min-height: 150px;
+        background-color: forestgreen;
+        border: 1px solid black;
+    }
+    [class*=col] .row [class*=col]
+    {
+        background-color: goldenrod;
+        border: 1px solid white;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    [class*=col]
+    {
+        min-height: 150px;
+        background-color: dodgerblue;
+        border: 1px solid black;
+    }
+    [class*=col] .row [class*=col]
+    {
+        background-color: forestgreen;
+        border: 1px solid white;
+    }
+}
